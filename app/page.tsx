@@ -2,7 +2,7 @@ import Link from "next/link";
 import ContactLink from "@/app/components/ContactLink";
 
 export default function Home() {
-  const APP_NAME = "King Purified Water";
+  const APP_NAME = "Aquaorder";
   const [firstWord, ...restWords] = APP_NAME.split(" ");
   const firstWordStart = firstWord.slice(0, -1);
   const firstWordLast = firstWord.slice(-1);
@@ -20,21 +20,7 @@ export default function Home() {
           </p>
           <h1 className="mt-3 font-['Spectral',serif] text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl md:text-6xl">
             <span>{firstWordStart}</span>
-            <span className="relative inline-block">
-              {firstWordLast}
-              <svg
-                className="absolute left-1/2 -top-[0.40em] h-[0.8em] w-[0.70em] -translate-x-1/2 text-amber-500"
-                viewBox="0 0 64 48"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path d="M6 40h52v6H6z" />
-                <path d="M10 38 20 16l12 14 12-14 10 22H10z" />
-                <circle cx="20" cy="14" r="4" />
-                <circle cx="32" cy="8" r="4" />
-                <circle cx="44" cy="14" r="4" />
-              </svg>
-            </span>
+            <span>{firstWordLast}</span>
             <span> {remainingWords}</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl font-['Golos_Text',system-ui] text-base leading-7 text-slate-600 sm:text-lg">

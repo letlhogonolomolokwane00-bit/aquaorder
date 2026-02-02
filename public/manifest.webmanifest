@@ -1,6 +1,6 @@
 {
-  "name": "King Purified Water",
-  "short_name": "KPW Orders",
+  "name": "Aquaorder",
+  "short_name": "Aquaorder Orders",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8fafc",
