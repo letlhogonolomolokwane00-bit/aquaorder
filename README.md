@@ -6,7 +6,7 @@ Customers can place JoJo refill orders, drivers manage assigned deliveries, and 
 
 ## Live App
 
-- Production: `https://aquaorder.vercel.app` (update if different)
+- Production: `https://aquaorder.vercel.app` 
 
 ## Features
 
