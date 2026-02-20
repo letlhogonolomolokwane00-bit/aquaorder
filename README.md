@@ -52,3 +52,23 @@ NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
+
+
+## Screenshots
+
+### Home
+![Home screen](public/screenshots/home.png)
+
+### Owner portal
+![Owner Portal](public/screenshots/owner-portal.png)
+
+
+### driver portal
+![Driver Portal](public/screenshots/driver-portal.png)
+
+### customer form
+![customer form](public/screenshots/customer-form.png)
+![customer form continued](public/screenshots/customer-form-con.png)
+
+### contact page
+![business-contact-page](public/screenshots/business-contact-page.png)
